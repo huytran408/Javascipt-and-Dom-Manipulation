@@ -52,8 +52,9 @@ function filterOnTableButton() {
 
    //Get the value property of the input element
   var filterDate = inputElement.property("value");
-if (text=""){
+if (filterDate==""){
     renderTable(tableData)
+    console.log("works")
 }
 else
 {
